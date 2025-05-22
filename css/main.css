@@ -1,0 +1,304 @@
+.title{
+    width: 60%;
+
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100%;
+    padding: 1px;
+    transition: all 0.5s ease;
+}
+
+.overlay h1,
+.overlay p {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.black-box {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    border: 0px solid black;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.asd:hover .black-box {
+    /* top: 50%; */
+    border: 15px solid black;
+
+}
+
+.overlay p {
+    margin-top: -10px;
+}
+
+
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay {
+    margin-top: 50%;
+}
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img {
+    width: 100%;
+    display: block;
+}
+
+
+.responsiveBox {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.responsiveBox-item {
+    width: 25%;
+}
+
+.responsiveBox-item i {
+    color: white;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.flex-item {
+    margin-right: 10px;
+
+}
+
+
+.flex-container {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+
+}
+
+
+th,
+td {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    text-align: center;
+}
+
+.end-btn {
+    background-color: yellow;
+    float: right;
+    padding: 8px;
+    width: 40%;
+    border: 1px solid #ccc;
+}
+
+
+.form-container {
+    width: 60%;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+
+}
+
+.form-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.w-30 {
+    width: 30%;
+    padding: 10px;
+    float: left;
+}
+
+.w-40 {
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+
+.w20 {
+    width: 20%;
+    padding: 10px;
+    float: left;
+}
+
+.w-10 {
+    width: 10%;
+    padding: 10px;
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto';
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+    transform: rotate(0.03deg);
+}
+
+html {
+    line-height: 1.15;
+    /*기본 행간 높이*/
+}
+
+.sub-background {
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+
+}
+
+
+.main-title {
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+}
+
+.main-subtitle {
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.main-background {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://codingapplecdn.com/wp-content/uploads/2019/06/shoes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+}
+
+
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-parent {
+    width: 80%;
+    float: left;
+}
+
+.right-parent {
+    width: 20%;
+    height: 200px;
+    float: left;
+    background: cadetblue;
+}
+
+.name {
+    font-size: 17px;
+}
+
+.created-at {
+    font-size: 12px;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+
+}
+
+@media screen and (max-width : 1200px) {
+    .responsiveBox-item {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    .responsiveBox-item {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+
+}

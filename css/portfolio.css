@@ -1,0 +1,96 @@
+.title{
+    width: 70%;
+}
+
+.w-25{
+    width: 25%;
+    padding: 5px;
+}
+.w-25 i{
+    color: #9198e5;
+    background-color: white;
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    padding-top: 22px;
+
+}
+.services{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+.white-box{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto';
+
+}
+
+html{
+    line-height: 1.15;
+}
+
+.font-white{
+    color: white;
+
+}
+
+.iphoneimg{
+    padding-top: 40px;
+    width: 30%;
+    display: block;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 20px ;
+}
+
+
+
+
+.container{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 255, 0.679), #9198e5);
+}
+
+@media screen and (max-width : 768px) {
+    .iphoneimg{
+        width: 50%;
+        margin: auto;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
